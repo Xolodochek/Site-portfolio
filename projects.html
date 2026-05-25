@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мои проекты | Волосков Микита</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <span class="brand-mark">VM</span>
+        <span>Волосков Микита</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Главная навигация">
+        <a href="index.html">Главная</a>
+        <a href="man.html">МАН</a>
+        <a href="projects.html" aria-current="page">Мои проекты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <div class="reveal">
+          <p class="eyebrow">Работы</p>
+          <h1>Мои проекты</h1>
+          <p>
+            Здесь будут собраны сайты, приложения и учебные работы. Раздел уже
+            подготовлен под будущую биржу и текущий проект Code Block.
+          </p>
+        </div>
+      </section>
+
+      <section class="section project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-visual code-preview" aria-hidden="true">
+            <div class="window-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>blocks.add("button")
+blocks.add("logic")
+project.export("Python")</code></pre>
+          </div>
+          <div class="project-content">
+            <p class="eyebrow">Приложение</p>
+            <h2>Code Tap Blocks</h2>
+            <p>
+              Мобильное приложение на Python/Kivy для сборки кода визуальными
+              блоками. Идея похожа на Scratch, но результатом становится
+              настоящий текст программы.
+            </p>
+            <ul class="tag-list" aria-label="Технологии">
+              <li>Python</li>
+              <li>Kivy</li>
+              <li>Android</li>
+              <li>Visual coding</li>
+            </ul>
+            <div class="project-actions">
+              <a class="button primary" href="../code_blocks_mobile/main.py">Открыть main.py</a>
+              <a class="button secondary" href="../code_blocks_mobile/README.md">README</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual exchange-preview" aria-hidden="true">
+            <span class="chart-line"></span>
+            <span class="chart-column one"></span>
+            <span class="chart-column two"></span>
+            <span class="chart-column three"></span>
+          </div>
+          <div class="project-content">
+            <p class="eyebrow">Скоро</p>
+            <h2>Сайт-биржа</h2>
+            <p>
+              Место для будущего проекта биржи. Потом сюда можно добавить
+              описание, скриншоты, ссылку на сайт и список функций.
+            </p>
+            <ul class="tag-list" aria-label="План">
+              <li>В разработке</li>
+              <li>Web</li>
+              <li>Проект</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual man-preview" aria-hidden="true">
+            <span>MAN</span>
+          </div>
+          <div class="project-content">
+            <p class="eyebrow">Веб</p>
+            <h2>Сайт МАН</h2>
+            <p>
+              Сайт с формой заявки и QR-кодом для консультации по цифровым
+              технологиям.
+            </p>
+            <div class="project-actions">
+              <a class="button secondary" href="https://zor-man-form.netlify.app/" target="_blank" rel="noreferrer">
+                Открыть сайт
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Волосков Микита</span>
+      <a href="https://zor-man-form.netlify.app/" target="_blank" rel="noreferrer">zor-man-form.netlify.app</a>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
