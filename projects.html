@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мои проекты | Волосков Микита</title>
+    <title>Проекты | Волосков Микита</title>
+    <meta name="description" content="Проекты Волоскова Микиты: Code Tap Blocks, сайт МАН и место под будущую биржу." />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="На главную">
         <span class="brand-mark">VM</span>
-        <span>Волосков Микита</span>
+        <span class="brand-text">Волосков Микита</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
         <span></span>
@@ -19,94 +20,89 @@
       </button>
       <nav class="site-nav" aria-label="Главная навигация">
         <a href="index.html">Главная</a>
+        <a href="projects.html" aria-current="page">Проекты</a>
         <a href="man.html">МАН</a>
-        <a href="projects.html" aria-current="page">Мои проекты</a>
       </nav>
     </header>
 
     <main>
-      <section class="page-hero compact">
-        <div class="reveal">
-          <p class="eyebrow">Работы</p>
-          <h1>Мои проекты</h1>
-          <p>
-            Здесь будут собраны сайты, приложения и учебные работы. Раздел уже
-            подготовлен под будущую биржу и текущий проект Code Block.
-          </p>
-        </div>
+      <section class="page-hero">
+        <p class="eyebrow reveal">Project archive</p>
+        <h1 class="reveal">Проекты, которые можно развивать дальше.</h1>
+        <p class="reveal">
+          Здесь собраны текущие работы и подготовлены места под будущие кейсы.
+          Когда появится сайт-биржа, его можно будет добавить как полноценный
+          проект со ссылкой, скриншотами и описанием.
+        </p>
       </section>
 
-      <section class="section project-grid">
-        <article class="project-card featured reveal">
-          <div class="project-visual code-preview" aria-hidden="true">
-            <div class="window-bar">
-              <span></span>
-              <span></span>
-              <span></span>
+      <section class="section case-list">
+        <article class="case-card feature-case reveal">
+          <div class="case-visual code-visual" aria-hidden="true">
+            <div class="app-shell">
+              <div class="app-sidebar">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="app-canvas">
+                <span class="block blue">Python</span>
+                <span class="block green">Logic</span>
+                <span class="block yellow">Export</span>
+              </div>
             </div>
-            <pre><code>blocks.add("button")
-blocks.add("logic")
-project.export("Python")</code></pre>
           </div>
-          <div class="project-content">
-            <p class="eyebrow">Приложение</p>
+          <div class="case-copy">
+            <p class="eyebrow">Mobile app</p>
             <h2>Code Tap Blocks</h2>
             <p>
-              Мобильное приложение на Python/Kivy для сборки кода визуальными
-              блоками. Идея похожа на Scratch, но результатом становится
-              настоящий текст программы.
+              Мобильное приложение на Python/Kivy для сборки программы
+              визуальными блоками. Концепция похожа на Scratch, но итогом
+              становится настоящий текст кода.
             </p>
-            <ul class="tag-list" aria-label="Технологии">
+            <ul class="tag-list" aria-label="Технологии проекта">
               <li>Python</li>
               <li>Kivy</li>
               <li>Android</li>
               <li>Visual coding</li>
             </ul>
-            <div class="project-actions">
-              <a class="button primary" href="../code_blocks_mobile/main.py">Открыть main.py</a>
-              <a class="button secondary" href="../code_blocks_mobile/README.md">README</a>
-            </div>
           </div>
         </article>
 
-        <article class="project-card reveal">
-          <div class="project-visual exchange-preview" aria-hidden="true">
-            <span class="chart-line"></span>
-            <span class="chart-column one"></span>
-            <span class="chart-column two"></span>
-            <span class="chart-column three"></span>
+        <article class="case-card reveal">
+          <div class="case-visual market-visual" aria-hidden="true">
+            <span class="ticker">BUY</span>
+            <span class="ticker muted">SELL</span>
+            <span class="market-line"></span>
           </div>
-          <div class="project-content">
-            <p class="eyebrow">Скоро</p>
+          <div class="case-copy">
+            <p class="eyebrow">Coming next</p>
             <h2>Сайт-биржа</h2>
             <p>
-              Место для будущего проекта биржи. Потом сюда можно добавить
-              описание, скриншоты, ссылку на сайт и список функций.
+              Заготовка под будущий проект биржи. Позже сюда добавим рабочую
+              ссылку, ключевые функции, скриншоты и описание роли в проекте.
             </p>
-            <ul class="tag-list" aria-label="План">
+            <ul class="tag-list" aria-label="Статус проекта">
               <li>В разработке</li>
               <li>Web</li>
-              <li>Проект</li>
+              <li>Finance UI</li>
             </ul>
           </div>
         </article>
 
-        <article class="project-card reveal">
-          <div class="project-visual man-preview" aria-hidden="true">
+        <article class="case-card reveal">
+          <div class="case-visual man-visual" aria-hidden="true">
             <span>MAN</span>
+            <small>2026</small>
           </div>
-          <div class="project-content">
-            <p class="eyebrow">Веб</p>
+          <div class="case-copy">
+            <p class="eyebrow">Web project</p>
             <h2>Сайт МАН</h2>
             <p>
-              Сайт с формой заявки и QR-кодом для консультации по цифровым
-              технологиям.
+              Сайт с формой заявки, QR-кодом и контактами для консультации по
+              цифровым технологиям.
             </p>
-            <div class="project-actions">
-              <a class="button secondary" href="https://zor-man-form.netlify.app/" target="_blank" rel="noreferrer">
-                Открыть сайт
-              </a>
-            </div>
+            <a class="button secondary" href="https://zor-man-form.netlify.app/" target="_blank" rel="noreferrer">
+              Открыть сайт
+            </a>
           </div>
         </article>
       </section>

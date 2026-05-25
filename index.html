@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио | Волосков Микита</title>
+    <title>Волосков Микита | Портфолио</title>
+    <meta
+      name="description"
+      content="Портфолио Волоскова Микиты: веб-проекты, приложение Code Tap Blocks и достижение МАН."
+    />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="На главную">
         <span class="brand-mark">VM</span>
-        <span>Волосков Микита</span>
+        <span class="brand-text">Волосков Микита</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
         <span></span>
@@ -19,20 +23,20 @@
       </button>
       <nav class="site-nav" aria-label="Главная навигация">
         <a href="index.html" aria-current="page">Главная</a>
+        <a href="projects.html">Проекты</a>
         <a href="man.html">МАН</a>
-        <a href="projects.html">Мои проекты</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Портфолио ученика и разработчика</p>
-          <h1>Создаю сайты, приложения и цифровые проекты с понятной пользой.</h1>
+          <p class="eyebrow">Portfolio / Web / Accessibility</p>
+          <h1>Разрабатываю цифровые проекты с понятной логикой и сильной подачей.</h1>
           <p class="hero-text">
-            Здесь будут собраны мои достижения, проекты, дипломы и работы. Раздел
-            "Обо мне" уже подготовлен, а текст можно будет быстро заменить, когда
-            появится готовое описание.
+            Это личное портфолио для проектов, достижений и будущего описания
+            обо мне. Сейчас здесь уже собраны МАН, сайт с QR-кодом и приложение
+            Code Tap Blocks.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="projects.html">Смотреть проекты</a>
@@ -40,68 +44,90 @@
           </div>
         </div>
 
-        <div class="hero-panel reveal" aria-label="Краткая информация">
-          <div class="status-row">
-            <span class="status-dot"></span>
-            <span>Портфолио в разработке</span>
+        <aside class="hero-showcase reveal" aria-label="Краткая информация">
+          <div class="showcase-top">
+            <span class="status-pill">Open to new projects</span>
+            <span class="year">2026</span>
           </div>
-          <div class="profile-orbit">
-            <span class="profile-initials">VM</span>
-          </div>
-          <dl class="fact-grid">
+          <div class="identity-card">
+            <span class="identity-mark">VM</span>
             <div>
-              <dt>Направление</dt>
-              <dd>Веб-дизайн и IT</dd>
+              <h2>Волосков Микита</h2>
+              <p>Веб-дизайн, Python, визуальное программирование</p>
+            </div>
+          </div>
+          <dl class="metrics">
+            <div>
+              <dt>Секция</dt>
+              <dd>Интернет-технологии</dd>
             </div>
             <div>
-              <dt>Город</dt>
-              <dd>Харьков</dd>
+              <dt>Достижение</dt>
+              <dd>Диплом III степени</dd>
             </div>
             <div>
-              <dt>Проекты</dt>
-              <dd>Code Block, сайт МАН</dd>
+              <dt>Фокус</dt>
+              <dd>Практичные IT-решения</dd>
             </div>
           </dl>
-        </div>
+        </aside>
       </section>
 
-      <section class="section about-section">
+      <section class="section split-section">
         <div class="section-heading reveal">
           <p class="eyebrow">Обо мне</p>
-          <h2>Текст добавим позже, а структура уже готова.</h2>
+          <h2>Блок готов под финальный текст, фото и контакты.</h2>
         </div>
-        <div class="about-layout">
-          <article class="text-block reveal">
-            <h3>Кто я</h3>
+        <div class="about-stack">
+          <article class="insight-card reveal">
+            <span class="card-number">01</span>
+            <h3>Разработка</h3>
             <p>
-              Меня зовут Волосков Микита. Я интересуюсь цифровыми технологиями,
-              веб-дизайном, разработкой приложений и проектами, которые помогают
-              людям пользоваться техникой увереннее.
+              Работаю с HTML, CSS и Python. Собираю интерфейсы, которые можно
+              быстро показать, протестировать и развивать дальше.
             </p>
           </article>
-          <article class="text-block reveal">
-            <h3>Что умею</h3>
+          <article class="insight-card reveal">
+            <span class="card-number">02</span>
+            <h3>Доступность</h3>
             <p>
-              Работаю с HTML, CSS, Python и визуальными интерфейсами. Разбираюсь
-              в создании сайтов, мобильных приложений и удобных цифровых решений.
+              Интересуюсь технологиями, которые помогают людям пользоваться
+              компьютером и смартфоном увереннее.
             </p>
           </article>
-          <article class="text-block reveal">
-            <h3>Что будет дальше</h3>
+          <article class="insight-card reveal">
+            <span class="card-number">03</span>
+            <h3>Портфолио</h3>
             <p>
-              Когда ты дашь финальное описание, этот раздел можно заменить на
-              личный текст, добавить фото, контакты и список навыков.
+              Дальше сюда можно добавить личное описание, фото, контакты,
+              сертификаты и новые проекты.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="section highlight-band reveal">
-        <div>
-          <p class="eyebrow">Главное достижение</p>
-          <h2>Диплом III степени МАН по интернет-технологиям и веб-дизайну.</h2>
+      <section class="section work-preview">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Главные материалы портфолио.</h2>
         </div>
-        <a class="button light" href="man.html">Открыть страницу МАН</a>
+        <div class="preview-grid">
+          <a class="preview-item reveal" href="projects.html">
+            <span class="preview-label">Проект</span>
+            <h3>Code Tap Blocks</h3>
+            <p>Приложение на Python/Kivy для сборки кода визуальными блоками.</p>
+          </a>
+          <a class="preview-item accent reveal" href="man.html">
+            <span class="preview-label">Достижение</span>
+            <h3>МАН 2025/2026</h3>
+            <p>Диплом III степени в секции интернет-технологий и веб-дизайна.</p>
+          </a>
+          <a class="preview-item reveal" href="https://zor-man-form.netlify.app/" target="_blank" rel="noreferrer">
+            <span class="preview-label">Сайт</span>
+            <h3>zor-man-form</h3>
+            <p>Страница заявки и консультации по цифровым технологиям.</p>
+          </a>
+        </div>
       </section>
     </main>
 
